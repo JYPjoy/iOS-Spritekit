@@ -13,15 +13,24 @@ struct ContentView: View {
     let screenWidth = UIScreen.main.bounds.width
     let screenHeight = UIScreen.main.bounds.height
     
-    //define a scene
+    //MARK: GameScene
+//    var scene: SKScene {
+//        let scene = GameScene()
+//        scene.size = CGSize(width: screenWidth, height: screenHeight)
+//        scene.scaleMode = .fill
+//        scene.backgroundColor = .white
+//        return scene
+//    }
+//
+
+    // MARK: TextScene
     var scene: SKScene {
-        let scene = GameScene()
+        let scene = TextScene()
         scene.size = CGSize(width: screenWidth, height: screenHeight)
         scene.scaleMode = .fill
         scene.backgroundColor = .white
         return scene
     }
-    
     
     var body: some View {
         VStack {

@@ -12,6 +12,7 @@
 		A821FEDC29DE5E53005ACA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A821FEDB29DE5E53005ACA3D /* Assets.xcassets */; };
 		A821FEDF29DE5E53005ACA3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A821FEDE29DE5E53005ACA3D /* Preview Assets.xcassets */; };
 		A821FEE629DE5E87005ACA3D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A821FEE529DE5E87005ACA3D /* GameScene.swift */; };
+		A821FEE829DE6C8D005ACA3D /* TextScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A821FEE729DE6C8D005ACA3D /* TextScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A821FEDB29DE5E53005ACA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A821FEDE29DE5E53005ACA3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A821FEE529DE5E87005ACA3D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A821FEE729DE6C8D005ACA3D /* TextScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				A821FED729DE5E52005ACA3D /* GameIntroApp.swift */,
 				A821FED929DE5E52005ACA3D /* ContentView.swift */,
 				A821FEE529DE5E87005ACA3D /* GameScene.swift */,
+				A821FEE729DE6C8D005ACA3D /* TextScene.swift */,
 				A821FEDB29DE5E53005ACA3D /* Assets.xcassets */,
 				A821FEDD29DE5E53005ACA3D /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A821FEE629DE5E87005ACA3D /* GameScene.swift in Sources */,
+				A821FEE829DE6C8D005ACA3D /* TextScene.swift in Sources */,
 				A821FEDA29DE5E52005ACA3D /* ContentView.swift in Sources */,
 				A821FED829DE5E52005ACA3D /* GameIntroApp.swift in Sources */,
 			);
